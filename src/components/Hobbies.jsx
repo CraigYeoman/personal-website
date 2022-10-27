@@ -4,7 +4,7 @@ const Hobbies = () => {
             <div>
                 <div>Hobbies</div>
                 <div>Family</div>
-                <div>Racings</div>
+                <div>Racing</div>
                 <div>3d Printing</div>
                 <div>Raspberry Pi, Arduino</div>
             </div>
