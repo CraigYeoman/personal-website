@@ -42,8 +42,8 @@ ul {
 /* Main */
 
 .main {
-  height: 100vh;
   position: relative;
+  height: 400px;
 }
 
 .main--title {
@@ -57,4 +57,23 @@ ul {
   width: 400px;
   position: absolute;
   top: 15px;
+  right: 1vw;
+  z-index:-1;
+}
+
+/* About */
+
+/* Skills */
+
+.skills{
+  background-color: var(--secondary);
+}
+
+.skills--svg img{
+  height: 50px;
+  color: var(--main);
+}
+
+svg path{
+  fill: var(--main)
 }
