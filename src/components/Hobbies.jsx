@@ -1,8 +1,8 @@
 const Hobbies = () => {
     return (
-        <div>
+        <div className="hobbies">
             <div>
-                <div>Hobbies</div>
+                <div className="hobbies-title">Hobbies</div>
                 <div>Family</div>
                 <div>Racing</div>
                 <div>3d Printing</div>

@@ -5,14 +5,19 @@
 }
 
 body {
-  padding-left: 5.5vw;
-  padding-right: 5.5vw;
   background-color: var(--main);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* Header */
@@ -21,6 +26,8 @@ body {
   display: flex;
   justify-content: right;
   font-weight: 600;
+  width: 100vw;
+  padding-right: 5vw;
 }
 
 ul {
@@ -67,13 +74,48 @@ ul {
 
 .skills{
   background-color: var(--secondary);
+  background-image: linear-gradient(135deg ,var(--secondary),var(--main));
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  clip-path: polygon(0 15vh,100% 0,100% 80%,0 100%);
+  width: 100vw;
+  padding: 10rem 0 10rem;
+}
+
+.skills--title {
+  text-align: center;
+}
+
+.skills--svg {
+  align-self: center;
+  display: grid;
+  margin-top: 60px;
+  grid-template-rows: repeat(4, 80px);
+  grid-template-columns: repeat(4, 80px);
 }
 
 .skills--svg img{
   height: 50px;
+  width: 50px;
   color: var(--main);
+  align-self: center;
+  justify-self: center;
 }
 
 svg path{
   fill: var(--main)
+}
+
+.hobbies {
+  background-color: var(--secondary);
+  background-image: linear-gradient(135deg ,var(--secondary),var(--main));
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  clip-path: polygon(0 15vh,100% 0,100% 80%,0 100%);
+  width: 100vw;
+  padding: 10rem 0 10rem;
 }

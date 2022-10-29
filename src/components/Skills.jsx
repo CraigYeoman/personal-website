@@ -13,7 +13,8 @@ import react from './images/svg/icon_react.svg'
 
 const Skills = () => {
     return (
-        <div className="skills" id="skills">Skills
+        <div className="skills" id="skills">
+            <div className='skills--title'>Skills</div>
             <div className='skills--svg'>
                 <img src={html} alt='html' />
                 <img src={css} alt='css' />
