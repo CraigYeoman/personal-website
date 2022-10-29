@@ -14,7 +14,7 @@ import react from './images/svg/icon_react.svg'
 const Skills = () => {
     return (
         <div className="skills" id="skills">
-            <div className='skills--title'>Skills</div>
+            <h2 className='section--title'>Skills</h2>
             <div className='skills--svg'>
                 <img src={html} alt='html' />
                 <img src={css} alt='css' />
