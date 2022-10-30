@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.3ee77b3a.css",
+    "main.js": "/personal-website/static/js/main.1a9030b3.js",
+    "static/media/racing.jpg": "/personal-website/static/media/racing.416a1fcfa9684144d5bf.jpg",
+    "static/media/raspberry.jpg": "/personal-website/static/media/raspberry.c5ca3a99b678700562db.jpg",
+    "static/media/family.JPG": "/personal-website/static/media/family.0e2c9310f9ceed2bbe79.JPG",
+    "static/media/3dprinting.jpg": "/personal-website/static/media/3dprinting.8b37cbc8aa28995560f7.jpg",
+    "static/media/photo.jpeg": "/personal-website/static/media/photo.6afb855f3651bad28efc.jpeg",
+    "static/media/icon_linux.svg": "/personal-website/static/media/icon_linux.63ef0b4ee76c5cbbf56ab6332ec2dd00.svg",
+    "static/media/icon_jest.svg": "/personal-website/static/media/icon_jest.1ca0681e8627bf3d6ca356ec1042f616.svg",
+    "static/media/icon_react.svg": "/personal-website/static/media/icon_react.f40e7f428dd9c5ae369fd715ff0d1a7e.svg",
+    "static/media/icon_mongodb.svg": "/personal-website/static/media/icon_mongodb.0d94d57e89aae5cc15378fb56bebc1fd.svg",
+    "static/media/icon_nodejs.svg": "/personal-website/static/media/icon_nodejs.17aa6211b0ac380144813086be27c763.svg",
+    "static/media/icon_git.svg": "/personal-website/static/media/icon_git.8967f9d177fd03c97bdd7cc72cb8e7c7.svg",
+    "static/media/icon_express.svg": "/personal-website/static/media/icon_express.f13d95f273730ed4c5493ccb4bd478f9.svg",
+    "static/media/icon_java.svg": "/personal-website/static/media/icon_java.f33728d326e801b0c3966e08bead88a7.svg",
+    "static/media/icon_javascript.svg": "/personal-website/static/media/icon_javascript.5c20ae258635b24568b151b8b3a7ecef.svg",
+    "static/media/icon_python.svg": "/personal-website/static/media/icon_python.74462b8bf37c61140ec8d9620a0af169.svg",
+    "index.html": "/personal-website/index.html",
+    "static/media/icon_html.svg": "/personal-website/static/media/icon_html.3ae2b8cc0171d5af90440ab97b421497.svg",
+    "static/media/icon_css.svg": "/personal-website/static/media/icon_css.e75b8ba750630b122a25b5e5fb518468.svg",
+    "main.3ee77b3a.css.map": "/personal-website/static/css/main.3ee77b3a.css.map",
+    "main.1a9030b3.js.map": "/personal-website/static/js/main.1a9030b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ee77b3a.css",
+    "static/js/main.1a9030b3.js"
+  ]
+}
