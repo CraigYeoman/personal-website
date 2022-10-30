@@ -5,11 +5,11 @@ const Contact = () => {
             <form 
                 name="contact v1"
                 className="contact--form" 
-                method="post"
+                method="POST"
                 data-netlify="true"
-                netlify
                 >
-                <input type='hidden' name='form-name' value='contact v1'/>
+                <input type="hidden" name="form-name" value="contact"/>
+
 
                 <div className="form--inputs">
                         <input type='text' name='first-name' placeholder="Name"/>

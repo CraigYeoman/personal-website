@@ -221,7 +221,7 @@ textarea {
   display: flex;
 }
 
-.contactv2 button {
+.contact--container button {
   background-color: #555555;
   border: none;
   color: white;
