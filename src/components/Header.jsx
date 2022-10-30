@@ -3,7 +3,7 @@ const Header = () => {
         <div className="header">
             <ul>
                 <li>
-                    <a className="header--link" href="#home" to='/'>Home</a>
+                    <a className="header--link" href="#main" to='/'>Home</a>
                 </li>
                 <li>
                     <a className="header--link" href="#about" to='/'>About</a>

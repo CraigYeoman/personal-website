@@ -15,19 +15,43 @@ const Skills = () => {
     return (
         <div className="skills" id="skills">
             <h2 className='section--title'>Skills</h2>
-            <div className='skills--svg'>
-                <img src={html} alt='html' />
-                <img src={css} alt='css' />
-                <img src={javascript} alt='javascript' />
-                <img src={jest} alt='jest' />
-                <img src={react} alt='react' />
-                <img src={nodejs} alt='nodejs' />
-                <img src={express} alt='express' />
-                <img src={mongodb} alt='mongodb' />
-                <img src={python} alt='python' />
-                <img src={java} alt='java' />
-                <img src={linux} alt='linux' />
-                <img src={git} alt='git' />
+            <div className='skills--svg--container'>
+                <div className='skills--svg'>
+                    <img src={html} alt='html'/>HTML
+                </div>
+                <div className='skills--svg'>
+                    <img src={css} alt='css' />CSS
+                </div>
+                <div className='skills--svg'>
+                    <img src={javascript} alt='javascript' />Javascript
+                </div>
+                <div className='skills--svg'>
+                    <img src={jest} alt='jest' />Jest
+                </div>
+                <div className='skills--svg'>
+                    <img src={react} alt='react' />React
+                </div>
+                <div className='skills--svg'>
+                    <img src={nodejs} alt='nodejs' />Nodejs
+                </div>
+                <div className='skills--svg'>
+                    <img src={express} alt='express' />Express
+                </div>
+                <div className='skills--svg'>
+                    <img src={mongodb} alt='mongodb' />Mongodb
+                </div>
+                <div className='skills--svg'>
+                    <img src={python} alt='python' />Python
+                </div>
+                <div className='skills--svg'>
+                    <img src={java} alt='java' />Java
+                </div>
+                <div className='skills--svg'>
+                    <img src={linux} alt='linux' />Linux
+                </div>
+                <div className='skills--svg'>
+                    <img src={git} alt='git' />Git
+                </div>
             </div>
         </div>
     )
