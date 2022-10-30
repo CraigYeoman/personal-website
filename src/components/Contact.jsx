@@ -7,6 +7,7 @@ const Contact = () => {
                 className="contact--form" 
                 method="post"
                 data-netlify="true"
+                netlify
                 >
                 <input type='hidden' name='form-name' value='contact v1'/>
 
