@@ -31,12 +31,13 @@ body {
 
 .header {
   display: flex;
-  justify-content: right;
+  justify-content: space-around;
   font-weight: 600;
   width: 100vw;
   padding-right: 5vw;
   position: fixed;
   z-index:+1;
+  background-color: white;
 }
 
 ul {
@@ -60,6 +61,7 @@ ul {
 .main {
   position: relative;
   height: 400px;
+  margin-top: 50px;
 }
 
 .main--title {
@@ -250,28 +252,33 @@ textarea {
   .hobbies {
     clip-path: none;
     padding: 1rem 0 1rem;
-}
+  }
 
-.skills {
-  clip-path: none;
-  padding: 1rem 0 1rem;
-}
+  .skills {
+    clip-path: none;
+    padding: 1rem 0 1rem;
+  }
 
-.main {
-  padding-top: 40px;
-}
+  .main {
+    padding-top: 40px;
+  }
 
-.main--profile-pic{
-  padding-top: 40px;
-}
+  .main--profile-pic{
+    padding-top: 40px;
+  }
 
-.header{
-  background-color: white;
-  padding-top: 16px
-}
+  .header{
+    justify-content: space-evenly;
+    padding-top: 16px;
+  }
 
-input, textarea {
-  width:60vw;
-}
+  ul {
+    padding: 0;
+    gap: 5px;
+  }
+
+  input, textarea {
+    width:60vw;
+  }
 
 }
