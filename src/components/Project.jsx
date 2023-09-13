@@ -5,7 +5,9 @@ const Project = (project) => {
   console.log(project.title);
   return (
     <div className="project" id="project">
-      <img alt="img" src={img} />
+      <div className="img-container">
+        <img alt="img" src={img} />
+      </div>
       <div className="project-container">
         <h2 className="project--title">{title}</h2>
         <div className="project--tech">

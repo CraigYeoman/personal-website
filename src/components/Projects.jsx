@@ -1,23 +1,9 @@
 import Project from "./Project";
-import yreApp from "./images/yre-app.png";
+import yreApp from "./images/erp-app.png";
+import hrApp from "./images/hr-app.png"
+import yreWebsite from "./images/yre-website.png"
 
 const projects = [
-  {
-    title: "Work Order App",
-    img: "https://res.cloudinary.com/ddcqxstsp/video/upload/v1685453235/erp-app_wavdic.gif",
-    tools: [
-      { name: "node-js" },
-      { name: "express" },
-      { name: "react" },
-      { name: "mongoDB" },
-      { name: "mongoose" },
-      { name: "material ui" },
-    ],
-    description:
-      "An application built to track work orders and store information on parts, customers, vendors, and labor.  At my family's business all work orders were tracked using paper.  The main objectives were to reduce time spent searching through paper work orders and the ability to better visualize the volume and types of work orders. ",
-    github: "https://github.com/CraigYeoman/erp-yre",
-    link: "https://yre-erp.onrender.com/",
-  },
   {
     title: "Work Order App",
     img: yreApp,
@@ -33,6 +19,35 @@ const projects = [
       "An application built to track work orders and store information on parts, customers, vendors, and labor.  At my family's business all work orders were tracked using paper.  The main objectives were to reduce time spent searching through paper work orders and the ability to better visualize the volume and types of work orders. ",
     github: "https://github.com/CraigYeoman/erp-yre",
     link: "https://yre-erp.onrender.com/",
+  },
+  {
+    title: "HR Management App",
+    img: hrApp,
+    tools: [
+      { name: "C#" },
+      { name: ".Net Core" },
+      { name: "Entity Framework Core" },
+      { name: "MVC" },
+      { name: "bootstrap" },
+    ],
+    description:
+      "This is a .Net 6 application used to track employee leave.  Employees can login and request time off.  Adminstrators can review, approve, and deny request.",
+    github: "https://github.com/CraigYeoman/HRManagementWebNet6",
+    link: "https://hrmanagementweb20230818105522.azurewebsites.net/",
+  },
+  {
+    title: "Yeoman Race Engines Website",
+    img: yreWebsite,
+    tools: [
+      { name: "React" },
+      { name: "HTML" },
+      { name: "CSS" },
+      { name: "Javascript" },
+    ],
+    description:
+      "The latest website I built for my family's business.  I'm currently working on another iteration.  ",
+    github: "https://github.com/CraigYeoman/yre-website",
+    link: "https://yeomanraceengines.com/",
   },
 ];
 

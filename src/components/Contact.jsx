@@ -1,7 +1,8 @@
 const Contact = () => {
   return (
     <div className="contact--container" id="contact">
-      <h2 className="section--title">Contact</h2>
+      <h2 className="section--title-inverse">Contact</h2>
+      <div className="row">
       <form
         name="contact v1"
         className="contact--form"
@@ -19,8 +20,11 @@ const Contact = () => {
         <div className="form--inputs">
           <textarea name="message" placeholder="Message"></textarea>
         </div>
-        <button type="submit">Contact</button>
+        <div className="contact--button-container">
+          <button type="submit">Contact</button>
+        </div>
       </form>
+      </div>
     </div>
   );
 };

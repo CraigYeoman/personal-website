@@ -14,55 +14,77 @@ import react from "./images/svg/icon_react.svg";
 const Skills = () => {
   return (
     <div className="skills" id="skills">
-      <h2 className="section--title">Skills</h2>
-      <div className="skills--svg--container">
+      <h2 className="section--title-inverse">Skills</h2>
+      <div className="row">
+        <div className="column">
+            <div className="skills--about">
+              <p className="section--text-inverse">I've always enjoyed computers and technology.  From making things with Arduino and Raspberry Pi, writing custom macros for CNC, python scripts for productivity in excel, building websites, and creating applications.</p>
+            
+            <div>
+
+            </div>
+            <div className="row">
+              <div className="section--text-inverse">
+                CV Link
+              </div>
+              <div className="section--text-inverse">
+                Bio Link
+              </div>
+            </div>
+            </div>
+          </div>
+        <div className="skills--svg--container">
         <div className="skills--svg">
-          <img src={html} alt="html" />
-          HTML
-        </div>
-        <div className="skills--svg">
-          <img src={css} alt="css" />
-          CSS
-        </div>
-        <div className="skills--svg">
-          <img src={javascript} alt="javascript" />
-          Javascript
-        </div>
-        <div className="skills--svg">
-          <img src={jest} alt="jest" />
-          Jest
-        </div>
-        <div className="skills--svg">
-          <img src={react} alt="react" />
-          React
-        </div>
-        <div className="skills--svg">
-          <img src={nodejs} alt="nodejs" />
-          Nodejs
-        </div>
-        <div className="skills--svg">
-          <img src={express} alt="express" />
-          Express
-        </div>
-        <div className="skills--svg">
-          <img src={mongodb} alt="mongodb" />
-          Mongodb
-        </div>
-        <div className="skills--svg">
-          <img src={python} alt="python" />
-          Python
-        </div>
-        <div className="skills--svg">
-          <img src={csharp} alt="csharp" />
-          C#
-        </div>
-        <div className="skills--svg">
-          <img src={linux} alt="linux" />
-          Linux
-        </div>
-        <div className="skills--svg">
-          <img src={git} alt="git" />
-          Git
+            <img src={javascript} alt="javascript" />
+            Javascript
+          </div>
+          <div className="skills--svg">
+            <img src={csharp} alt="csharp" />
+            C#
+          </div>
+          <div className="skills--svg">
+            <img src={react} alt="react" />
+            React
+          </div>
+          <div className="skills--svg">
+            <img src={nodejs} alt="nodejs" />
+            Nodejs
+          </div>
+          <div className="skills--svg">
+            <img src={html} alt="html" />
+            HTML
+          </div>
+          <div className="skills--svg">
+            <img src={css} alt="css" />
+            CSS
+          </div>
+          
+          <div className="skills--svg">
+            <img src={jest} alt="jest" />
+            Jest
+          </div>
+          
+          <div className="skills--svg">
+            <img src={express} alt="express" />
+            Express
+          </div>
+          <div className="skills--svg">
+            <img src={mongodb} alt="mongodb" />
+            Mongodb
+          </div>
+          <div className="skills--svg">
+            <img src={python} alt="python" />
+            Python
+          </div>
+          
+          <div className="skills--svg">
+            <img src={linux} alt="linux" />
+            Linux
+          </div>
+          <div className="skills--svg">
+            <img src={git} alt="git" />
+            Git
+          </div>
         </div>
       </div>
     </div>

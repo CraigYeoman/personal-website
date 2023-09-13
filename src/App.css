@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "roboto";
+  src: url("components/fonts/Roboto-Regular.ttf");
+}
+
+
 :root {
   /* Colors */
   --main: #71717A;
@@ -5,7 +11,9 @@
   --white: white;
   --background: #1b1b1b;
   --black: #000;
+  font-family: "roboto", serif;
 }
+
 
 a:link {
   text-decoration: none;
@@ -27,10 +35,33 @@ body {
   flex-direction: column;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .section--title {
   text-align: center;
   font-size: 3rem;
   color: var(--white)
+}
+
+.section--title-inverse {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--secondary)
+}
+
+.section--text-inverse{
+  color: var(--secondary)
 }
 
 /* Header */
@@ -66,27 +97,86 @@ ul {
 
 .main {
   position: relative;
-  height: 400px;
+  height: 100vh;
   margin-top: 50px;
+  width: 100vw;
 }
 
 .main--title {
   font-weight: bolder;
   font-size: 6rem;
+  color: var(--white);
+  
+}
+
+.main--subtitle {
+  font-weight: bolder;
+  font-size: 4rem;
   color: var(--white)
+}
+
+.main--text {
+  color: var(--white);
+  margin-top: 20px;
 }
 
 .main--profile-container {
   display: flex;
   justify-content: center;
+  margin-top: 3vw;
+  margin-left: 3vw;
+  flex-direction: column;
+  width: fit-content;
+  padding: 30px;
+  border-radius: 20px;
+  /* background-color: black; */
+  opacity: 1;
 }
 
-.main--profile-pic {
+.particles {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 20px;
+  aspect-ratio: 1/1;
+  background: white;
+  box-shadow: 0 0 10px white,
+  0 0 20px white,
+  0 0 30px white,
+  0 0 50px white;
   border-radius: 50%;
-  height: 400px;
-  width: 400px;
-  margin-top: 15px;
-  z-index:-1;
+  animation: animate 5s linear forwards;
+}
+
+@keyframes animate
+{
+  0%
+  {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50%
+  {
+    opacity: 1;
+  }
+  100%
+  {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+}
+
+.particles::before
+{
+  content: '';
+  position: absolute;
+  top: 35%;
+  left: 100%;
+  width: 100vw;
+  height: 50%;
+  opacity: .5;
+  background: linear-gradient(white, transparent);
+
 }
 
 /* About */
@@ -98,20 +188,38 @@ ul {
   flex-direction: column;
   align-content: center;
   width: 100vw;
-  padding-top: 10rem;
+  background-color: var(--white);
+  padding-bottom: 5vw;
+  align-items: center;
+}
+
+.skills .column{
+  margin-right: 1.5rem;
+}
+
+.skills .row{
+  justify-content: space-evenly;
 }
 
 .skills--title {
   text-align: center;
   font-size: 3rem;
+  color: var(--secondary)
+}
+
+.skills--about {
+  width: 360px;
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.75;
 }
 
 .skills--svg--container {
   align-self: center;
   display: grid;
-  margin-top: 60px;
-  grid-template-rows: repeat(4, 90px);
+  grid-template-rows: repeat(3, 90px);
   grid-template-columns: repeat(4, 80px);
+  margin-left: 1.5rem;
 }
 
 .skills--svg {
@@ -119,7 +227,7 @@ ul {
   text-align: center;
   display: flex;
   flex-direction: column;
-  color: var(--white);
+  color: var(--secondary);
   font-weight: bold;
   transition: .2s;
 }
@@ -134,7 +242,7 @@ ul {
   align-self: center;
   justify-self: center;
   padding-bottom: 5px;
-  filter: invert(100%) sepia(0%) saturate(7473%) hue-rotate(83deg) brightness(100%) contrast(99%);
+  filter: invert(15%) sepia(8%) saturate(312%) hue-rotate(202deg) brightness(95%) contrast(97%);
 }
 
 /* Projects */
@@ -143,6 +251,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 1200px;
 }
 
 .project {
@@ -161,15 +270,16 @@ ul {
 }
 
 .project img{
-  width: 400px;
-  height: 400px;
-
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
 
 .project--title {
   text-align: center;
   color: var(--white);
   margin-top: 0px;
+  width: 350px;
 }
 
 .project--tech {
@@ -195,6 +305,7 @@ margin-top: 10px;
 .project--description {
   color:#999;
   margin: 15px;
+  text-align: justify;
 }
 
 .project--button-container{
@@ -287,7 +398,12 @@ margin-top: 10px;
 /* Contact */
 
 .contact--container {
-  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100vw;
+  background-color: var(--white);
+  padding-bottom: 3vh;
 }
 
 .contact--title {
@@ -318,19 +434,27 @@ textarea {
   display: flex;
 }
 
+.contact--button-container {
+  justify-content: center;
+  display: flex;
+}
+
 .contact--container button {
-  background-color: #555555;
-  border: none;
-  color: white;
-  padding: 8px 22px;
+  display: flex;
+  background-color: #444;
+  border-radius: 8px;
+  color: var(--white);
+  font-family: monospace;
+  align-items: center;
+  padding: 10px;
+  margin-right: 6px;
+  margin-top: 10px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  border: 2px solid #f3f3f3;
-  border-radius: 15px;
-  font-weight: bold;
   align-self: center;
+}
+
+.contact--container button:hover {
+  background-color: var(--main);
 }
 
 
