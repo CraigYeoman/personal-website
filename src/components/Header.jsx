@@ -1,6 +1,7 @@
 import { AiFillGithub } from 'react-icons/ai'
 import { AiFillLinkedin } from "react-icons/ai";
 import { IoMdDocument } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -13,23 +14,23 @@ const Header = () => {
                     <a className="header--link" href="https://www.linkedin.com/in/craig-yeoman-10341a8b/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
                 </li>
                 <li>
-                <a className="header--link" href="https://www.linkedin.com/in/craig-yeoman-10341a8b/" target="_blank" rel="noopener noreferrer"><IoMdDocument /></a>
+                    <Link className="header--link" to="/CV" target="_blank" rel="noopener noreferrer"><IoMdDocument /></Link>        
                 </li>
             </ul>
             
             <ul>
                 <li>
-                    <a className="header--link" href="#main" to='/'>Home</a>
+                    <a className="header--link" href="/#main" to='/'>Home</a>
                 </li>
                 
                 <li>
-                    <a className="header--link" href="#skills" to='/'>Skills</a>
+                    <a className="header--link" href="/#skills" to='/'>Skills</a>
                 </li>
                 <li>
-                    <a className="header--link" href="#projects" to='/'>Projects</a>
+                    <a className="header--link" href="/#projects" to='/'>Projects</a>
                 </li>
                 <li>
-                    <a className="header--link" href="#contact" to='/'>Contact</a>
+                    <a className="header--link" href="/#contact" to='/'>Contact</a>
                 </li>
             </ul>
         </div>

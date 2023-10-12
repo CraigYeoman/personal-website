@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
+
 const Project = (project) => {
-  console.log(project);
-  const { title, img, description, tools, link, github } = project.project;
-  console.log(project);
-  console.log(project.title);
+
+  const { title, img, description, tools, link, github, projectDetails} = project.project;
+
   return (
-    <div className="project" id="project">
+    <div className="project" id="project" key={title}>
       <div className="img-container">
         <img alt="img" src={img} />
       </div>
@@ -12,7 +13,7 @@ const Project = (project) => {
         <h2 className="project--title">{title}</h2>
         <div className="project--tech">
           {tools.map((tool) => {
-            return <div className="project--tech-item">{tool.name}</div>;
+            return <div className="project--tech-item" key={tool.name}>{tool.name}</div>;
           })}
         </div>
         <div className="project--description">{description}</div>
@@ -23,6 +24,7 @@ const Project = (project) => {
           <a href={link} target="_blank" rel="noreferrer">
             <button className="project--button">Project Live</button>
           </a>
+          <Link to={projectDetails}><button className="project--button">Details</button></Link>
         </div>
       </div>
     </div>

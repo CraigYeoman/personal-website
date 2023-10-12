@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import profileImg from "./images/photo.jpeg";
+import ship from "./images/ship.png"
+import ship2 from "./images/ship2.png"
+import ship3 from "./images/ship3.png"
 
 const Main = () => {
-
-  
 
   const particleEffect = () => {
     let sizeW = Math.random() * 12;
@@ -22,9 +22,12 @@ const Main = () => {
   }
 
   useEffect(() => {
-    setInterval(() => {
+
+    const interval = setInterval(() => {
       particleEffect()
-    }, 400)
+    }, 400);
+
+    return () => clearInterval(interval)
     
   },[])
 
@@ -33,8 +36,14 @@ const Main = () => {
       <div className="main--profile-container">
         <div className="main--title">Craig Yeoman</div>    
         <div className="main--subtitle">Software Engineer</div>     
-        <div className="main--text">I enjoy creating things and solving problems.  I'm always looking forward to learning something new.</div>
+        <div className="main--text">I enjoy problem solving and developing useful applications.  I'm always looking forward to learning something new.</div>
+        
       </div>
+      <div className="ship-container"> 
+        <img className="ship"src={ship}></img>
+        <div className="ship-flame"></div>
+      </div>
+      
     </div>
   );
 };
