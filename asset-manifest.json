@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.12937ce2.css",
-    "main.js": "/personal-website/static/js/main.69bb914e.js",
+    "main.js": "/personal-website/static/js/main.072ee967.js",
     "static/media/racing.jpg": "/personal-website/static/media/racing.416a1fcfa9684144d5bf.jpg",
     "static/media/raspberry.jpg": "/personal-website/static/media/raspberry.c5ca3a99b678700562db.jpg",
     "static/media/pdf.worker.min.js": "/personal-website/static/media/pdf.worker.min.741477e46a8bcebfcbdf.js",
@@ -33,10 +33,10 @@
     "static/media/icon_html.svg": "/personal-website/static/media/icon_html.3ae2b8cc0171d5af90440ab97b421497.svg",
     "static/media/icon_css.svg": "/personal-website/static/media/icon_css.e75b8ba750630b122a25b5e5fb518468.svg",
     "main.12937ce2.css.map": "/personal-website/static/css/main.12937ce2.css.map",
-    "main.69bb914e.js.map": "/personal-website/static/js/main.69bb914e.js.map"
+    "main.072ee967.js.map": "/personal-website/static/js/main.072ee967.js.map"
   },
   "entrypoints": [
     "static/css/main.12937ce2.css",
-    "static/js/main.69bb914e.js"
+    "static/js/main.072ee967.js"
   ]
 }
