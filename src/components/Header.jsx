@@ -2,6 +2,7 @@ import { AiFillGithub } from 'react-icons/ai'
 import { AiFillLinkedin } from "react-icons/ai";
 import { IoMdDocument } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     return (
@@ -20,17 +21,17 @@ const Header = () => {
             
             <ul>
                 <li>
-                    <a className="header--link" href="/personal-website#main" to='/'>Home</a>
+                    <HashLink className="header--link" to='/personal-website#main'>Home</HashLink>
                 </li>
                 
                 <li>
-                    <a className="header--link" href="/personal-website#skills" to='/'>Skills</a>
+                    <HashLink className="header--link" to='/personal-website#skills'>Skills</HashLink>
                 </li>
                 <li>
-                    <a className="header--link" href="/personal-website#projects" to='/'>Projects</a>
+                    <HashLink className="header--link" to='/personal-website#projects'>Projects</HashLink>
                 </li>
                 <li>
-                    <a className="header--link" href="/personal-website#contact" to='/'>Contact</a>
+                    <HashLink className="header--link" to='/personal-website#contact'>Contact</HashLink>
                 </li>
             </ul>
         </div>
