@@ -20,17 +20,17 @@ const Header = () => {
             
             <ul>
                 <li>
-                    <a className="header--link" href="/#main" to='/'>Home</a>
+                    <a className="header--link" href="/personal-website#main" to='/'>Home</a>
                 </li>
                 
                 <li>
-                    <a className="header--link" href="/#skills" to='/'>Skills</a>
+                    <a className="header--link" href="/personal-website#skills" to='/'>Skills</a>
                 </li>
                 <li>
-                    <a className="header--link" href="/#projects" to='/'>Projects</a>
+                    <a className="header--link" href="/personal-website#projects" to='/'>Projects</a>
                 </li>
                 <li>
-                    <a className="header--link" href="/#contact" to='/'>Contact</a>
+                    <a className="header--link" href="/personal-website#contact" to='/'>Contact</a>
                 </li>
             </ul>
         </div>

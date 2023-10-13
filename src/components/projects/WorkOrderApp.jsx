@@ -46,9 +46,9 @@ const WorkOrderApp = () => {
                     <h3>Future Revisions</h3>
                         <p>The ability to track inventory and orders.</p>  
                     <div className="project--images">
-                        <div className="img-container"><img src={erpApp1}/></div>
-                        <div className="img-container"><img src={erpApp2}/></div>
-                        <div className="img-container"><img src={erpApp3}/>  </div>
+                        <div className="img-container"><img alt="img1" src={erpApp1}/></div>
+                        <div className="img-container"><img alt="img2" src={erpApp2}/></div>
+                        <div className="img-container"><img alt="img3" src={erpApp3}/>  </div>
                     </div>
                 </div>
             </div>

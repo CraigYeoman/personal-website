@@ -36,7 +36,7 @@ const YeomanWebsite = () => {
                     <h3>Future Revisions</h3>
                         <p>The ability for admin to login and update pricing.</p>
                     <div className="project--images">
-                        <div className="img-container"><img src={yreWebsite}/></div>
+                        <div className="img-container"><img alt="img1" src={yreWebsite}/></div>
                     </div>    
                 </div>
             </div>

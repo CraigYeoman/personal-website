@@ -1,7 +1,5 @@
 import { useEffect } from "react";
 import ship from "./images/ship.png"
-import ship2 from "./images/ship2.png"
-import ship3 from "./images/ship3.png"
 
 const Main = () => {
 
@@ -40,7 +38,7 @@ const Main = () => {
         
       </div>
       <div className="ship-container"> 
-        <img className="ship"src={ship}></img>
+        <img alt="ship" className="ship"src={ship}></img>
         <div className="ship-flame"></div>
       </div>
       

@@ -25,7 +25,6 @@ const HRManagement = () => {
                     <ul className="project--vertical-list" style={{listStyleType: "circle"}}>
                         <li>Track types of employee leave (sick, vacation, etc.)</li>
                         <li>Let employees see how much leave they are allocated and leave remaining</li>
-                        <li>Store customer, parts, vendors, and labor information in one location</li>
                         <li>Allow admin to approve or reject request of leave</li>
                     </ul>
                     <h3>Development</h3>
@@ -44,9 +43,9 @@ const HRManagement = () => {
                     <h3>Future Revisions</h3>
                         <p>The ability for employees to clock in-out.</p>
                         <div className="project--images">
-                            <div className="img-container"><img src={View}/></div>
-                            <div className="img-container"><img src={View2}/></div>
-                            <div className="img-container"><img src={View3}/>  </div>
+                            <div className="img-container"><img alt="img1" src={View}/></div>
+                            <div className="img-container"><img alt="img2" src={View2}/></div>
+                            <div className="img-container"><img alt="img3" src={View3}/>  </div>
                         </div>
                     
                     
