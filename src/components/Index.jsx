@@ -9,10 +9,10 @@ const Index = () => {
     return (
     <div className="App">
       <Header />
-      <Main />
-      <Skills />
-      <Projects />
-      <Contact />
+      <Main id="main"/>
+      <Skills id="skills"/>
+      <Projects id="projects"/>
+      <Contact id="contact"/>
       <Footer />
     </div>
     )
