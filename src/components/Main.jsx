@@ -33,7 +33,7 @@ const Main = () => {
     <div id="main" className="main">
       <div className="main--profile-container">
         <div className="main--title">Craig Yeoman</div>    
-        <div className="main--subtitle">Software Engineer</div>     
+        <div className="main--subtitle">Software Developer</div>     
         <div className="main--text">I enjoy problem solving and developing useful applications.  I'm always looking forward to learning something new.</div>
         
       </div>
